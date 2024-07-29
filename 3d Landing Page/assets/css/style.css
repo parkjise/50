@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: Quicksand, sans-serif;
+  font-family: Quicksand,sans-serif;
 }
 
 html {
@@ -19,7 +19,7 @@ html {
 .container {
   width: 100%;
   height: 100vh;
-  background-color: rgb(127, 86, 167);
+  background-color: #7f56a7;
 }
 
 .header {
@@ -39,7 +39,7 @@ html {
 .heading span {
   font-size: 4rem;
   color: #efd81d;
-  transition: color 0.2s;
+  transition: color .2s;
 }
 
 .btn {
@@ -49,10 +49,10 @@ html {
   font-size: 1.4rem;
   text-transform: uppercase;
   color: #fff;
-  letter-spacing: 0.1rem;
+  letter-spacing: .1rem;
   border: none;
   margin-top: 3.5rem;
-  transition: background-color 0.3s;
+  transition: background-color .3s;
 }
 
 .boxes {
@@ -64,7 +64,7 @@ html {
 .active.box {
   top: 0;
   left: 0;
-  transition: all 0.5s;
+  transition: all .5s;
 }
 
 .box {
@@ -74,7 +74,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.5s;
+  transition: all .5s;
   cursor: pointer;
 }
 
@@ -86,6 +86,7 @@ html {
     transform: rotateX(360deg) rotateY(360deg) rotateY(360deg);
   }
 }
+
 .box-1 {
   left: -25rem;
   top: -6rem;
@@ -131,14 +132,14 @@ html {
 .active.box div {
   width: 16rem;
   height: 16rem;
-  transition: all 0.2s 0.5s ease-in-out;
+  transition: all .2s .5s ease-in-out;
 }
 
 .box div {
   width: 7rem;
   height: 7rem;
   position: absolute;
-  opacity: 0.8;
+  opacity: .8;
   box-shadow: 0.1rem 0.1rem 0.1rem #eee inset, -0.1rem -0.1rem 0.1rem #eee inset, 0.1rem -0.1rem 3.5rem rgba(255, 255, 255, 0.2), -0.1rem -0.1rem 3.5rem rgba(255, 255, 255, 0.2);
 }
 
