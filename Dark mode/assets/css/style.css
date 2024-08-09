@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: Quicksand,sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 html {
@@ -66,7 +66,7 @@ html {
   top: 1rem;
   left: 50%;
   transform: translateX(-50%);
-  opacity: .2;
+  opacity: 0.2;
 }
 
 .card-left {
@@ -135,5 +135,5 @@ html {
 .orange-circle {
   background-color: #ff5f00;
   margin-left: -2rem;
-  opacity: .7;
+  opacity: 0.7;
 }
